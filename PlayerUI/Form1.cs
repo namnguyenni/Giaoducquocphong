@@ -198,5 +198,26 @@ namespace PlayerUI
         {
             showSubMenu(PanelSubmenuChinhtri);
         }
+
+        private void Placeholder(string text,TextBox tbx)
+        {
+            tbx.Text = text;
+            
+        }
+
+        private void Search_textbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void btn_trangchinh_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new Form4().Show();
+
+        }
+
+
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace PlayerUI
+﻿using System.Drawing;
+namespace PlayerUI
 {
     partial class Form1
     {
@@ -55,11 +56,13 @@
             this.btn_AK47 = new System.Windows.Forms.Button();
             this.btn_Vukhi = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
+            this.btn_trangchinh = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.Search_textbox = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.panelSideMenu.SuspendLayout();
             this.PanelSubmenuChinhtri.SuspendLayout();
             this.panelToolsSubMenu.SuspendLayout();
@@ -115,7 +118,7 @@
             this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button14.Size = new System.Drawing.Size(233, 40);
             this.button14.TabIndex = 2;
-            this.button14.Text = "Preferences";
+            this.button14.Text = "Bài 3";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button14.UseVisualStyleBackColor = false;
             // 
@@ -133,7 +136,7 @@
             this.button15.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button15.Size = new System.Drawing.Size(233, 40);
             this.button15.TabIndex = 1;
-            this.button15.Text = "Effects and filters";
+            this.button15.Text = "Bài 2";
             this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button15.UseVisualStyleBackColor = false;
             // 
@@ -151,7 +154,7 @@
             this.button16.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button16.Size = new System.Drawing.Size(233, 40);
             this.button16.TabIndex = 0;
-            this.button16.Text = "Media converter";
+            this.button16.Text = "Bài 1";
             this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button16.UseVisualStyleBackColor = false;
             // 
@@ -223,7 +226,7 @@
             this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button10.Size = new System.Drawing.Size(233, 40);
             this.button10.TabIndex = 2;
-            this.button10.Text = "Preferences";
+            this.button10.Text = "Bài 3";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button10.UseVisualStyleBackColor = false;
             this.button10.Click += new System.EventHandler(this.button10_Click);
@@ -242,7 +245,7 @@
             this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button12.Size = new System.Drawing.Size(233, 40);
             this.button12.TabIndex = 1;
-            this.button12.Text = "Effects and filters";
+            this.button12.Text = "Bài 2";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button12.UseVisualStyleBackColor = false;
             this.button12.Click += new System.EventHandler(this.button12_Click);
@@ -261,7 +264,7 @@
             this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button13.Size = new System.Drawing.Size(233, 40);
             this.button13.TabIndex = 0;
-            this.button13.Text = "Media converter";
+            this.button13.Text = "Bài 1";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button13.UseVisualStyleBackColor = false;
             this.button13.Click += new System.EventHandler(this.button13_Click);
@@ -314,7 +317,7 @@
             this.button1.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(233, 40);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Export playlist";
+            this.button1.Text = "Bài 4";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -333,7 +336,7 @@
             this.button6.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button6.Size = new System.Drawing.Size(233, 40);
             this.button6.TabIndex = 2;
-            this.button6.Text = "Import playlist";
+            this.button6.Text = "Bài 3";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button6.UseVisualStyleBackColor = false;
             this.button6.Click += new System.EventHandler(this.button6_Click);
@@ -352,7 +355,7 @@
             this.button7.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button7.Size = new System.Drawing.Size(233, 40);
             this.button7.TabIndex = 1;
-            this.button7.Text = "Managing playlist";
+            this.button7.Text = "Bài 2";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
@@ -371,7 +374,7 @@
             this.button8.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
             this.button8.Size = new System.Drawing.Size(233, 40);
             this.button8.TabIndex = 0;
-            this.button8.Text = "New playlist";
+            this.button8.Text = "Bài 1";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
@@ -528,26 +531,27 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.Controls.Add(this.button9);
+            this.panelLogo.Controls.Add(this.btn_trangchinh);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(233, 92);
             this.panelLogo.TabIndex = 0;
             // 
-            // button9
+            // btn_trangchinh
             // 
-            this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(3, 24);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(227, 44);
-            this.button9.TabIndex = 0;
-            this.button9.UseVisualStyleBackColor = true;
+            this.btn_trangchinh.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_trangchinh.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_trangchinh.BackgroundImage")));
+            this.btn_trangchinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_trangchinh.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_trangchinh.FlatAppearance.BorderSize = 0;
+            this.btn_trangchinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_trangchinh.Location = new System.Drawing.Point(3, 24);
+            this.btn_trangchinh.Name = "btn_trangchinh";
+            this.btn_trangchinh.Size = new System.Drawing.Size(227, 44);
+            this.btn_trangchinh.TabIndex = 0;
+            this.btn_trangchinh.UseVisualStyleBackColor = true;
+            this.btn_trangchinh.Click += new System.EventHandler(this.btn_trangchinh_Click);
             // 
             // panelChildForm
             // 
@@ -561,6 +565,8 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button4);
+            this.panel1.Controls.Add(this.Search_textbox);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -569,6 +575,49 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(931, 50);
             this.panel1.TabIndex = 3;
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.ForeColor = System.Drawing.Color.Blue;
+            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.Location = new System.Drawing.Point(817, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(102, 34);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "Tìm kiếm";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // Search_textbox
+            // 
+            this.Search_textbox.Font = new System.Drawing.Font("Times New Roman", 14F, System.Drawing.FontStyle.Italic);
+            this.Search_textbox.Location = new System.Drawing.Point(545, 4);
+            this.Search_textbox.MaximumSize = new System.Drawing.Size(255, 35);
+            this.Search_textbox.MinimumSize = new System.Drawing.Size(255, 30);
+            this.Search_textbox.Multiline = true;
+            this.Search_textbox.Name = "Search_textbox";
+            this.Search_textbox.Size = new System.Drawing.Size(255, 34);
+            this.Search_textbox.TabIndex = 4;
+            this.Search_textbox.TextChanged += new System.EventHandler(this.Search_textbox_TextChanged);
+            // 
+            // button3
+            // 
+            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(147, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(162, 44);
+            this.button3.TabIndex = 3;
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -586,25 +635,11 @@
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
-            // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.Control;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.Control;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(147, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 44);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1181, 640);
             this.Controls.Add(this.panel1);
@@ -624,6 +659,7 @@
             this.panelMediaSubMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -647,7 +683,7 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button btn_Thoat;
         private System.Windows.Forms.Panel panelChildForm;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button btn_trangchinh;
         private System.Windows.Forms.Button btn_K54;
         private System.Windows.Forms.Panel panelToolsSubMenu;
         private System.Windows.Forms.Button button10;
@@ -661,6 +697,8 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox Search_textbox;
     }
 }
 
