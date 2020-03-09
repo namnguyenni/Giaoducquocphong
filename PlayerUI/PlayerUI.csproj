@@ -97,6 +97,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Source\Source_Chienthuat\" />
+    <Folder Include="Source\Source_Chinhtri\" />
+    <Folder Include="Source\Source_Dieulenh\" />
+    <Folder Include="Source\Source_Vukhi\AK47\" />
+    <Folder Include="Source\Source_Vukhi\B41\" />
+    <Folder Include="Source\Source_Vukhi\CKC\" />
+    <Folder Include="Source\Source_Vukhi\K54\" />
+    <Folder Include="Source\Source_Vukhi\Luudan\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

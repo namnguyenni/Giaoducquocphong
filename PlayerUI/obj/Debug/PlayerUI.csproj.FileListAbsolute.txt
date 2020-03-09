@@ -42,3 +42,6 @@ C:\Users\Nam\Desktop\GDQPHONG\PlayerUI\obj\Debug\PlayerUI.Form2.resources
 C:\Users\Nam\Desktop\GDQPHONG\PlayerUI\obj\Debug\PlayerUI.Form3.resources
 C:\Users\Nam\Desktop\GDQPHONG\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
 C:\Users\Nam\Desktop\GDQPHONG\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
+C:\Github\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.exe.config
+C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
+C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.pdb

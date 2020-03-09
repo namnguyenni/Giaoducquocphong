@@ -30,7 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelSideMenu = new System.Windows.Forms.Panel();
+            this.PanelSubmenuChinhtri = new System.Windows.Forms.Panel();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.btn_Chinhtri = new System.Windows.Forms.Button();
             this.btn_Thoat = new System.Windows.Forms.Button();
+            this.panelToolsSubMenu = new System.Windows.Forms.Panel();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
             this.btn_Chienthuat = new System.Windows.Forms.Button();
             this.panelPlaylistSubMenu = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,6 +48,7 @@
             this.button8 = new System.Windows.Forms.Button();
             this.btn_Dieulenh = new System.Windows.Forms.Button();
             this.panelMediaSubMenu = new System.Windows.Forms.Panel();
+            this.btn_K54 = new System.Windows.Forms.Button();
             this.btn_Luudan = new System.Windows.Forms.Button();
             this.btn_B41 = new System.Windows.Forms.Button();
             this.btn_CKC = new System.Windows.Forms.Button();
@@ -47,22 +57,15 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.button9 = new System.Windows.Forms.Button();
             this.panelChildForm = new System.Windows.Forms.Panel();
-            this.btn_K54 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.panelToolsSubMenu = new System.Windows.Forms.Panel();
-            this.btn_Chinhtri = new System.Windows.Forms.Button();
-            this.PanelSubmenuChinhtri = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelSideMenu.SuspendLayout();
+            this.PanelSubmenuChinhtri.SuspendLayout();
+            this.panelToolsSubMenu.SuspendLayout();
             this.panelPlaylistSubMenu.SuspendLayout();
             this.panelMediaSubMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            this.panelToolsSubMenu.SuspendLayout();
-            this.PanelSubmenuChinhtri.SuspendLayout();
+            this.panelChildForm.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSideMenu
@@ -85,6 +88,93 @@
             this.panelSideMenu.Size = new System.Drawing.Size(250, 640);
             this.panelSideMenu.TabIndex = 0;
             // 
+            // PanelSubmenuChinhtri
+            // 
+            this.PanelSubmenuChinhtri.BackColor = System.Drawing.Color.White;
+            this.PanelSubmenuChinhtri.Controls.Add(this.button14);
+            this.PanelSubmenuChinhtri.Controls.Add(this.button15);
+            this.PanelSubmenuChinhtri.Controls.Add(this.button16);
+            this.PanelSubmenuChinhtri.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PanelSubmenuChinhtri.Location = new System.Drawing.Point(0, 773);
+            this.PanelSubmenuChinhtri.Name = "PanelSubmenuChinhtri";
+            this.PanelSubmenuChinhtri.Size = new System.Drawing.Size(233, 130);
+            this.PanelSubmenuChinhtri.TabIndex = 8;
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.White;
+            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button14.FlatAppearance.BorderSize = 0;
+            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button14.Location = new System.Drawing.Point(0, 80);
+            this.button14.Name = "button14";
+            this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button14.Size = new System.Drawing.Size(233, 40);
+            this.button14.TabIndex = 2;
+            this.button14.Text = "Preferences";
+            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.White;
+            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button15.Location = new System.Drawing.Point(0, 40);
+            this.button15.Name = "button15";
+            this.button15.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button15.Size = new System.Drawing.Size(233, 40);
+            this.button15.TabIndex = 1;
+            this.button15.Text = "Effects and filters";
+            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button15.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.White;
+            this.button16.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button16.FlatAppearance.BorderSize = 0;
+            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button16.Location = new System.Drawing.Point(0, 0);
+            this.button16.Name = "button16";
+            this.button16.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button16.Size = new System.Drawing.Size(233, 40);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "Media converter";
+            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button16.UseVisualStyleBackColor = false;
+            // 
+            // btn_Chinhtri
+            // 
+            this.btn_Chinhtri.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Chinhtri.BackgroundImage")));
+            this.btn_Chinhtri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Chinhtri.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Chinhtri.FlatAppearance.BorderSize = 0;
+            this.btn_Chinhtri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
+            this.btn_Chinhtri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.btn_Chinhtri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Chinhtri.ForeColor = System.Drawing.Color.Silver;
+            this.btn_Chinhtri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Chinhtri.Location = new System.Drawing.Point(0, 728);
+            this.btn_Chinhtri.Name = "btn_Chinhtri";
+            this.btn_Chinhtri.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btn_Chinhtri.Size = new System.Drawing.Size(233, 45);
+            this.btn_Chinhtri.TabIndex = 10;
+            this.btn_Chinhtri.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Chinhtri.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_Chinhtri.UseVisualStyleBackColor = true;
+            this.btn_Chinhtri.Click += new System.EventHandler(this.btnEqualizer_Click_1);
+            // 
             // btn_Thoat
             // 
             this.btn_Thoat.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Thoat.BackgroundImage")));
@@ -105,6 +195,75 @@
             this.btn_Thoat.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btn_Thoat.UseVisualStyleBackColor = true;
             this.btn_Thoat.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // panelToolsSubMenu
+            // 
+            this.panelToolsSubMenu.BackColor = System.Drawing.Color.White;
+            this.panelToolsSubMenu.Controls.Add(this.button10);
+            this.panelToolsSubMenu.Controls.Add(this.button12);
+            this.panelToolsSubMenu.Controls.Add(this.button13);
+            this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 598);
+            this.panelToolsSubMenu.Name = "panelToolsSubMenu";
+            this.panelToolsSubMenu.Size = new System.Drawing.Size(233, 130);
+            this.panelToolsSubMenu.TabIndex = 7;
+            // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.White;
+            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button10.FlatAppearance.BorderSize = 0;
+            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button10.Location = new System.Drawing.Point(0, 80);
+            this.button10.Name = "button10";
+            this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button10.Size = new System.Drawing.Size(233, 40);
+            this.button10.TabIndex = 2;
+            this.button10.Text = "Preferences";
+            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.White;
+            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button12.Location = new System.Drawing.Point(0, 40);
+            this.button12.Name = "button12";
+            this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button12.Size = new System.Drawing.Size(233, 40);
+            this.button12.TabIndex = 1;
+            this.button12.Text = "Effects and filters";
+            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.White;
+            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button13.FlatAppearance.BorderSize = 0;
+            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.button13.Location = new System.Drawing.Point(0, 0);
+            this.button13.Name = "button13";
+            this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button13.Size = new System.Drawing.Size(233, 40);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "Media converter";
+            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // btn_Chienthuat
             // 
@@ -250,6 +409,25 @@
             this.panelMediaSubMenu.Size = new System.Drawing.Size(233, 206);
             this.panelMediaSubMenu.TabIndex = 2;
             // 
+            // btn_K54
+            // 
+            this.btn_K54.BackColor = System.Drawing.Color.White;
+            this.btn_K54.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_K54.FlatAppearance.BorderSize = 0;
+            this.btn_K54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_K54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_K54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_K54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
+            this.btn_K54.Location = new System.Drawing.Point(0, 162);
+            this.btn_K54.Name = "btn_K54";
+            this.btn_K54.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_K54.Size = new System.Drawing.Size(233, 40);
+            this.btn_K54.TabIndex = 4;
+            this.btn_K54.Text = "K54";
+            this.btn_K54.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_K54.UseVisualStyleBackColor = false;
+            this.btn_K54.Click += new System.EventHandler(this.button11_Click);
+            // 
             // btn_Luudan
             // 
             this.btn_Luudan.BackColor = System.Drawing.Color.White;
@@ -373,186 +551,21 @@
             // panelChildForm
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(45)))));
+            this.panelChildForm.Controls.Add(this.pictureBox1);
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(250, 0);
             this.panelChildForm.Name = "panelChildForm";
             this.panelChildForm.Size = new System.Drawing.Size(931, 640);
             this.panelChildForm.TabIndex = 2;
             // 
-            // btn_K54
+            // pictureBox1
             // 
-            this.btn_K54.BackColor = System.Drawing.Color.White;
-            this.btn_K54.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_K54.FlatAppearance.BorderSize = 0;
-            this.btn_K54.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_K54.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.btn_K54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_K54.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.btn_K54.Location = new System.Drawing.Point(0, 162);
-            this.btn_K54.Name = "btn_K54";
-            this.btn_K54.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btn_K54.Size = new System.Drawing.Size(233, 40);
-            this.btn_K54.TabIndex = 4;
-            this.btn_K54.Text = "K54";
-            this.btn_K54.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_K54.UseVisualStyleBackColor = false;
-            this.btn_K54.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.White;
-            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button13.Location = new System.Drawing.Point(0, 0);
-            this.button13.Name = "button13";
-            this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(233, 40);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "Media converter";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.White;
-            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button12.Location = new System.Drawing.Point(0, 40);
-            this.button12.Name = "button12";
-            this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(233, 40);
-            this.button12.TabIndex = 1;
-            this.button12.Text = "Effects and filters";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.White;
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button10.Location = new System.Drawing.Point(0, 80);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(233, 40);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "Preferences";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
-            // 
-            // panelToolsSubMenu
-            // 
-            this.panelToolsSubMenu.BackColor = System.Drawing.Color.White;
-            this.panelToolsSubMenu.Controls.Add(this.button10);
-            this.panelToolsSubMenu.Controls.Add(this.button12);
-            this.panelToolsSubMenu.Controls.Add(this.button13);
-            this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 598);
-            this.panelToolsSubMenu.Name = "panelToolsSubMenu";
-            this.panelToolsSubMenu.Size = new System.Drawing.Size(233, 130);
-            this.panelToolsSubMenu.TabIndex = 7;
-            // 
-            // btn_Chinhtri
-            // 
-            this.btn_Chinhtri.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Chinhtri.BackgroundImage")));
-            this.btn_Chinhtri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Chinhtri.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Chinhtri.FlatAppearance.BorderSize = 0;
-            this.btn_Chinhtri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(21)))), ((int)(((byte)(32)))));
-            this.btn_Chinhtri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
-            this.btn_Chinhtri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Chinhtri.ForeColor = System.Drawing.Color.Silver;
-            this.btn_Chinhtri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Chinhtri.Location = new System.Drawing.Point(0, 728);
-            this.btn_Chinhtri.Name = "btn_Chinhtri";
-            this.btn_Chinhtri.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.btn_Chinhtri.Size = new System.Drawing.Size(233, 45);
-            this.btn_Chinhtri.TabIndex = 10;
-            this.btn_Chinhtri.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Chinhtri.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btn_Chinhtri.UseVisualStyleBackColor = true;
-            this.btn_Chinhtri.Click += new System.EventHandler(this.btnEqualizer_Click_1);
-            // 
-            // PanelSubmenuChinhtri
-            // 
-            this.PanelSubmenuChinhtri.BackColor = System.Drawing.Color.White;
-            this.PanelSubmenuChinhtri.Controls.Add(this.button14);
-            this.PanelSubmenuChinhtri.Controls.Add(this.button15);
-            this.PanelSubmenuChinhtri.Controls.Add(this.button16);
-            this.PanelSubmenuChinhtri.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelSubmenuChinhtri.Location = new System.Drawing.Point(0, 773);
-            this.PanelSubmenuChinhtri.Name = "PanelSubmenuChinhtri";
-            this.PanelSubmenuChinhtri.Size = new System.Drawing.Size(233, 130);
-            this.PanelSubmenuChinhtri.TabIndex = 8;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.White;
-            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button14.Location = new System.Drawing.Point(0, 80);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(233, 40);
-            this.button14.TabIndex = 2;
-            this.button14.Text = "Preferences";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.White;
-            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button15.Location = new System.Drawing.Point(0, 40);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(233, 40);
-            this.button15.TabIndex = 1;
-            this.button15.Text = "Effects and filters";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.White;
-            this.button16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(20)))), ((int)(((byte)(85)))));
-            this.button16.Location = new System.Drawing.Point(0, 0);
-            this.button16.Name = "button16";
-            this.button16.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button16.Size = new System.Drawing.Size(233, 40);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "Media converter";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.UseVisualStyleBackColor = false;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(931, 576);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -571,11 +584,13 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelSideMenu.ResumeLayout(false);
+            this.PanelSubmenuChinhtri.ResumeLayout(false);
+            this.panelToolsSubMenu.ResumeLayout(false);
             this.panelPlaylistSubMenu.ResumeLayout(false);
             this.panelMediaSubMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            this.panelToolsSubMenu.ResumeLayout(false);
-            this.PanelSubmenuChinhtri.ResumeLayout(false);
+            this.panelChildForm.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -610,6 +625,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
