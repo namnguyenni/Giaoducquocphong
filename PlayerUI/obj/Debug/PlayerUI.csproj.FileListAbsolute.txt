@@ -53,10 +53,10 @@ C:\Github\Giaoducquocphong\PlayerUI\bin\Debug\normnfc.nlp
 C:\Github\Giaoducquocphong\PlayerUI\bin\Debug\normnfd.nlp
 C:\Github\Giaoducquocphong\PlayerUI\bin\Debug\normnfkc.nlp
 C:\Github\Giaoducquocphong\PlayerUI\bin\Debug\normnfkd.nlp
-C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form1.resources
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form2.resources
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form4.resources
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
