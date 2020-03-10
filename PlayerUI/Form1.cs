@@ -43,13 +43,9 @@ namespace PlayerUI
         }
 
         #region MediaSubMenu
-        private void button2_Click(object sender, EventArgs e)
+        private void btn_AK47_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form2());
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            showSubMenu(panel4);
         }
 
         private void button3_Click(object sender, EventArgs e)
