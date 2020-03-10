@@ -71,6 +71,7 @@
     <Compile Include="Form4.Designer.cs">
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
+    <Compile Include="HandleEventInForm1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -161,6 +162,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\1_REWIND1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImageAndVideo\Vukhi\Image\B41\" />
+    <Folder Include="ImageAndVideo\Vukhi\Image\CKC\" />
+    <Folder Include="ImageAndVideo\Vukhi\Image\K54\" />
+    <Folder Include="ImageAndVideo\Vukhi\Image\LUUDAN\" />
+    <Folder Include="ImageAndVideo\Vukhi\Video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

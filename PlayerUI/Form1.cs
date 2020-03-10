@@ -179,7 +179,12 @@ namespace PlayerUI
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);
+            //add content to form 2 : video
+            //content is : 
+
+
+            panelShowContent.Controls.Add(childForm);
+            pictureBox1.Visible = false;
             panelChildForm.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
@@ -212,6 +217,27 @@ namespace PlayerUI
             this.Hide();
             new Form4().Show();
 
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            openChildForm(new Form2());
+        }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            HandleEventInForm1 handle = new HandleEventInForm1();
+            handle.ShowCautao(pictureBox1, 1, 1);
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            
         }
 
 
