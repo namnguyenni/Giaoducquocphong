@@ -172,6 +172,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG" />
+    <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO2.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

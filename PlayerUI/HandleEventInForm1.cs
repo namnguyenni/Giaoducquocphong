@@ -17,7 +17,7 @@ namespace PlayerUI
         {
 //C:\Github\Giaoducquocphong\PlayerUI\ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG
         }
-        public void ShowCautao(PictureBox pic,int code,int stt)
+        public static void ShowCautao(PictureBox pic,int code,int stt)
         {
             //string = \ImageAndVideo\Vukhi\Image\AK47\
             string LINK = "";
@@ -26,9 +26,14 @@ namespace PlayerUI
             {
                 case 1:
                     string linkAK = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
-                    pic.Image = Image.FromFile(linkAK);
-                    pic.Refresh();
-                    pic.Visible = true;
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\AK47",stt))
+                    {
+                        pic.Image = Image.FromFile(linkAK);
+                        pic.Refresh();
+                        pic.Visible = true;
+                        
+                    }
+                    
                     break;
                 case 2:
                     string linkChinhtri = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
@@ -56,8 +61,22 @@ namespace PlayerUI
                 default:
                     break;
             }
+           
         }
 
 
+        public static bool CheckCountIn(string path,int stt)
+        {
+            System.IO.DirectoryInfo dir = new System.IO.DirectoryInfo(path);
+            int count = dir.GetFiles().Length;
+            if (stt<=count && stt>=1)
+            {
+                return true;
+            }
+
+
+
+            return false;
+        }
     }
 }

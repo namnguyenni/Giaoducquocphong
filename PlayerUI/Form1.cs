@@ -12,6 +12,7 @@ namespace PlayerUI
 {
     public partial class Form1 : Form
     {
+        private int STT = 1;
         public Form1()
         {
             InitializeComponent();
@@ -231,12 +232,23 @@ namespace PlayerUI
 
         private void button11_Click_1(object sender, EventArgs e)
         {
-            HandleEventInForm1 handle = new HandleEventInForm1();
-            handle.ShowCautao(pictureBox1, 1, 1);
+            
+            HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
+            
+            
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            STT++;
+            HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
+             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            STT--;
+            HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
             
         }
 

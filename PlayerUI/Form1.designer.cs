@@ -138,9 +138,9 @@ namespace PlayerUI
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = global::PlayerUI.Properties.Resources._1_TURN_RIGHT;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(970, 72);
+            this.button3.Location = new System.Drawing.Point(970, 63);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(41, 32);
+            this.button3.Size = new System.Drawing.Size(57, 46);
             this.button3.TabIndex = 3;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -171,11 +171,12 @@ namespace PlayerUI
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = global::PlayerUI.Properties.Resources._1_TURN_LEFT;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(916, 72);
+            this.button2.Location = new System.Drawing.Point(907, 63);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 31);
+            this.button2.Size = new System.Drawing.Size(57, 46);
             this.button2.TabIndex = 2;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // panel4
             // 
