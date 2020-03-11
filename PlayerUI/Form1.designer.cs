@@ -221,10 +221,10 @@ namespace PlayerUI
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Image = global::PlayerUI.Properties.Resources._1_LESSONN_NAME;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label1.Location = new System.Drawing.Point(175, 72);
+            this.label1.Location = new System.Drawing.Point(176, 70);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(195, 37);
             this.label1.TabIndex = 6;
