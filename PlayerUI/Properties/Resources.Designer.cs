@@ -103,6 +103,16 @@ namespace PlayerUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1_EXITT {
+            get {
+                object obj = ResourceManager.GetObject("1_EXITT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1_FORWARD {
             get {
                 object obj = ResourceManager.GetObject("1_FORWARD", resourceCulture);
@@ -236,6 +246,16 @@ namespace PlayerUI.Properties {
         internal static System.Drawing.Bitmap _1_VUKHI {
             get {
                 object obj = ResourceManager.GetObject("1_VUKHI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap home1 {
+            get {
+                object obj = ResourceManager.GetObject("home1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
