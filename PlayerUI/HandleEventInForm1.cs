@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AxWMPLib;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -119,9 +120,25 @@ namespace PlayerUI
         /// Hiển thị video mô phỏng của các phần
         /// </summary>
         /// <param name="code"></param>
-        public void ShowVideoMophong(int code)
+        public void ShowVideoMophong(int code,AxWindowsMediaPlayer mediaPlayer)
         {
+            switch (code)
+            {
+                case 1 ://video ak
+                    string Path = @"..\..\ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4";
+                    mediaPlayer.URL = Path;
+                    
+                    //mediaPlayer.controls.play();
+                    break;
+                case 2 :
+                    break;
+                case 3 :
+                    break;
 
+
+                default:
+                    break;
+            }
 
         }
 

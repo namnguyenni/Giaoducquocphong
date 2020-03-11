@@ -12,7 +12,6 @@ namespace PlayerUI
 {
     public partial class Form1 : Form
     {
-        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         private int STT = 1;
         private bool ImageShowed = false;
         public Form1()
@@ -23,17 +22,11 @@ namespace PlayerUI
 
         private void hideSubMenu()
         {
-            panelSubmenuVukhi.Visible = false;
-            panelSubmenuDieulenh.Visible = false;
+            panelMediaSubMenu.Visible = false;
+            panelPlaylistSubMenu.Visible = false;
             panelToolsSubMenu.Visible = false;
             PanelSubmenuChinhtri.Visible = false;
-            panelSubmenuAK47.Visible = false;
-            panelSubmenuCKC.Visible = false;
-            panelSubmenuK54.Visible = false;
-            panelSubmenuLuuDan.Visible = false;
-            panelSubmenuB41.Visible = false;
-            panelSubmenuM79.Visible = false;
-        }   
+        }
 
         private void showSubMenu(Panel subMenu)
         {
@@ -46,42 +39,45 @@ namespace PlayerUI
                 subMenu.Visible = false;
         }
 
-        private void btnVukhi_Click(object sender, EventArgs e)
+        private void btnMedia_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubmenuVukhi);
-        
+            showSubMenu(panelMediaSubMenu);
         }
 
         #region MediaSubMenu
         private void btn_AK47_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubmenuAK47);
-        }
-    
-
-        private void btn_CKC_Click(object sender, EventArgs e)
-        {
-
-            showSubMenu(panelSubmenuCKC);
-
+            showSubMenu(panel4);
         }
 
-        private void btn_B41_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-
-            showSubMenu(panelSubmenuB41);
+            //..
+            //your codes
+            //..
+            hideSubMenu();
         }
 
-        private void btn_Luudan_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
+            //..
+            //your codes
+            //..
+            hideSubMenu();
+        }
 
-            showSubMenu(panelSubmenuLuuDan);
+        private void button5_Click(object sender, EventArgs e)
+        {
+            //..
+            //your codes
+            //..
+            hideSubMenu();
         }
         #endregion
 
         private void btnPlaylist_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubmenuDieulenh);
+            showSubMenu(panelPlaylistSubMenu);
         }
 
         #region PlayListManagemetSubMenu
@@ -159,13 +155,17 @@ namespace PlayerUI
         private void btnEqualizer_Click(object sender, EventArgs e)
         {
             openChildForm(new Form3());
-           
+            //..
+            //your codes
+            //..
             hideSubMenu();
         }
 
         private void btnHelp_Click(object sender, EventArgs e)
         {
-           
+            //..
+            //your codes
+            //..
             hideSubMenu();
         }
         private void btnExit_Click(object sender, EventArgs e)
@@ -189,13 +189,25 @@ namespace PlayerUI
 
         private void button11_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelSubmenuK54);
+
         }
 
-        private void btn_Chinhtri_click(object sender, EventArgs e)
+        private void btnEqualizer_Click_1(object sender, EventArgs e)
         {
             showSubMenu(PanelSubmenuChinhtri);
         }
+
+        private void Placeholder(string text,TextBox tbx)
+        {
+            tbx.Text = text;
+            
+        }
+
+        private void Search_textbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
 
         private void btn_trangchinh_Click(object sender, EventArgs e)
         {
@@ -204,12 +216,10 @@ namespace PlayerUI
 
         }
 
-        private void btn_AK47_Cautao_Click_1(object sender, EventArgs e)
+        private void button11_Click_1(object sender, EventArgs e)
         {
             HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
             ImageShowed = true;
-           
-            
         }
 
         private void btn_Mophong_Click(object sender, EventArgs e)
@@ -241,14 +251,8 @@ namespace PlayerUI
             
         }
 
-        private void button3_Click_1(object sender, EventArgs e)
-        {
-            player.Stop();
-        }
+       
 
-        private void btn_Chinhtri_Click_1(object sender, EventArgs e)
-        {
-            showSubMenu(PanelSubmenuChinhtri);
-        }
+
     }
 }

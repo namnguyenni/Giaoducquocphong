@@ -14,6 +14,7 @@ namespace PlayerUI
     {
         public Form2()
         {
+            new HandleEventInForm1().ShowVideoMophong(1, axWindowsMediaPlayer1);
             InitializeComponent();
         }
 
