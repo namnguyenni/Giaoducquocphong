@@ -12,6 +12,8 @@ namespace PlayerUI
 {
     public partial class Form1 : Form
     {
+        private int STT = 1;
+        private bool ImageShowed = false;
         public Form1()
         {
             InitializeComponent();
@@ -179,8 +181,8 @@ namespace PlayerUI
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
-            panelChildForm.Controls.Add(childForm);
-            panelChildForm.Tag = childForm;
+            panel2.Controls.Add(childForm);
+            panel2.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
         }
@@ -213,6 +215,43 @@ namespace PlayerUI
             new Form4().Show();
 
         }
+
+        private void button11_Click_1(object sender, EventArgs e)
+        {
+            HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
+            ImageShowed = true;
+        }
+
+        private void btn_Mophong_Click(object sender, EventArgs e)
+        {
+            openChildForm(new Form2());
+        }
+
+        private void btn_Preview_Click(object sender, EventArgs e)
+        {
+            if (ImageShowed)
+            {
+                if (HandleEventInForm1.ShowCautao(pictureBox1, 1, STT - 1))
+                {
+                    STT--;
+                }
+            }
+            
+        }
+
+        private void btn_Next_Click(object sender, EventArgs e)
+        {
+            if (ImageShowed)
+            {
+                if (HandleEventInForm1.ShowCautao(pictureBox1, 1, STT + 1))
+                {
+                    STT++;
+                }
+            }
+            
+        }
+
+       
 
 
     }

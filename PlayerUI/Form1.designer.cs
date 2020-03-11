@@ -32,16 +32,12 @@ namespace PlayerUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_Next = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_Preview = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_Mophong = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
@@ -79,7 +75,7 @@ namespace PlayerUI
             this.label2 = new System.Windows.Forms.Label();
             this.panelChildForm.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelSideMenu.SuspendLayout();
@@ -94,15 +90,15 @@ namespace PlayerUI
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
             this.panelChildForm.Controls.Add(this.panel2);
-            this.panelChildForm.Controls.Add(this.button3);
+            this.panelChildForm.Controls.Add(this.btn_Next);
             this.panelChildForm.Controls.Add(this.label1);
-            this.panelChildForm.Controls.Add(this.button2);
+            this.panelChildForm.Controls.Add(this.btn_Preview);
             this.panelChildForm.Controls.Add(this.panel4);
             this.panelChildForm.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelChildForm.Location = new System.Drawing.Point(190, 0);
             this.panelChildForm.Name = "panelChildForm";
-            this.panelChildForm.Size = new System.Drawing.Size(1039, 771);
+            this.panelChildForm.Size = new System.Drawing.Size(1039, 749);
             this.panelChildForm.TabIndex = 2;
             // 
             // panel2
@@ -111,113 +107,43 @@ namespace PlayerUI
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.panel2.Controls.Add(this.panel5);
+            this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Location = new System.Drawing.Point(180, 115);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(849, 644);
+            this.panel2.Size = new System.Drawing.Size(849, 622);
             this.panel2.TabIndex = 7;
             // 
-            // panel5
+            // pictureBox1
             // 
-            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.panel5.Controls.Add(this.button20);
-            this.panel5.Controls.Add(this.button19);
-            this.panel5.Controls.Add(this.button18);
-            this.panel5.Controls.Add(this.button17);
-            this.panel5.Location = new System.Drawing.Point(12, 595);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(819, 41);
-            this.panel5.TabIndex = 0;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(849, 622);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // button20
+            // btn_Next
             // 
-            this.button20.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button20.BackColor = System.Drawing.Color.Transparent;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Image = global::PlayerUI.Properties.Resources._1_FORWARD1;
-            this.button20.Location = new System.Drawing.Point(490, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(59, 35);
-            this.button20.TabIndex = 3;
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button19.BackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Image = global::PlayerUI.Properties.Resources._1_PLAYBUTTON1;
-            this.button19.Location = new System.Drawing.Point(425, 3);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(59, 35);
-            this.button19.TabIndex = 2;
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = global::PlayerUI.Properties.Resources._1_PAUSE1;
-            this.button18.Location = new System.Drawing.Point(360, 3);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(59, 35);
-            this.button18.TabIndex = 1;
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button17.BackColor = System.Drawing.Color.Transparent;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Image = global::PlayerUI.Properties.Resources._1_REWIND1;
-            this.button17.Location = new System.Drawing.Point(295, 3);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(59, 35);
-            this.button17.TabIndex = 0;
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Image = global::PlayerUI.Properties.Resources._1_TURN_RIGHT;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(970, 72);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(41, 32);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btn_Next.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Next.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Next.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Next.FlatAppearance.BorderColor = System.Drawing.SystemColors.Control;
+            this.btn_Next.FlatAppearance.BorderSize = 0;
+            this.btn_Next.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Next.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Next.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Next.ForeColor = System.Drawing.Color.White;
+            this.btn_Next.Image = global::PlayerUI.Properties.Resources._1_TURN_RIGHT;
+            this.btn_Next.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_Next.Location = new System.Drawing.Point(970, 72);
+            this.btn_Next.Name = "btn_Next";
+            this.btn_Next.Size = new System.Drawing.Size(41, 32);
+            this.btn_Next.TabIndex = 3;
+            this.btn_Next.UseVisualStyleBackColor = false;
+            this.btn_Next.Click += new System.EventHandler(this.btn_Next_Click);
             // 
             // label1
             // 
@@ -231,29 +157,31 @@ namespace PlayerUI
             this.label1.Text = "1. CẤU TẠO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button2
+            // btn_Preview
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::PlayerUI.Properties.Resources._1_TURN_LEFT;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(916, 72);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(48, 31);
-            this.button2.TabIndex = 2;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_Preview.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Preview.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Preview.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Preview.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_Preview.FlatAppearance.BorderSize = 0;
+            this.btn_Preview.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Preview.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Preview.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Preview.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Preview.ForeColor = System.Drawing.Color.White;
+            this.btn_Preview.Image = global::PlayerUI.Properties.Resources._1_TURN_LEFT;
+            this.btn_Preview.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Preview.Location = new System.Drawing.Point(916, 72);
+            this.btn_Preview.Name = "btn_Preview";
+            this.btn_Preview.Size = new System.Drawing.Size(48, 31);
+            this.btn_Preview.TabIndex = 2;
+            this.btn_Preview.UseVisualStyleBackColor = false;
+            this.btn_Preview.Click += new System.EventHandler(this.btn_Preview_Click);
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.button4);
+            this.panel4.Controls.Add(this.btn_Mophong);
             this.panel4.Controls.Add(this.button5);
             this.panel4.Controls.Add(this.button9);
             this.panel4.Controls.Add(this.button11);
@@ -262,25 +190,26 @@ namespace PlayerUI
             this.panel4.Size = new System.Drawing.Size(164, 517);
             this.panel4.TabIndex = 5;
             // 
-            // button4
+            // btn_Mophong
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(0, 120);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(164, 40);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "4. Mô phỏng";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btn_Mophong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Mophong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Mophong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Mophong.FlatAppearance.BorderSize = 0;
+            this.btn_Mophong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Mophong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Mophong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Mophong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Mophong.ForeColor = System.Drawing.Color.White;
+            this.btn_Mophong.Location = new System.Drawing.Point(0, 120);
+            this.btn_Mophong.Name = "btn_Mophong";
+            this.btn_Mophong.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Mophong.Size = new System.Drawing.Size(164, 40);
+            this.btn_Mophong.TabIndex = 3;
+            this.btn_Mophong.Text = "4. Mô phỏng";
+            this.btn_Mophong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Mophong.UseVisualStyleBackColor = false;
+            this.btn_Mophong.Click += new System.EventHandler(this.btn_Mophong_Click);
             // 
             // button5
             // 
@@ -341,6 +270,7 @@ namespace PlayerUI
             this.button11.Text = "1. Cấu tạo";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
             // 
             // panel1
             // 
@@ -402,7 +332,7 @@ namespace PlayerUI
             this.panelSideMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelSideMenu.Location = new System.Drawing.Point(0, 0);
             this.panelSideMenu.Name = "panelSideMenu";
-            this.panelSideMenu.Size = new System.Drawing.Size(190, 771);
+            this.panelSideMenu.Size = new System.Drawing.Size(190, 749);
             this.panelSideMenu.TabIndex = 0;
             // 
             // PanelSubmenuChinhtri
@@ -920,7 +850,7 @@ namespace PlayerUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1229, 771);
+            this.ClientSize = new System.Drawing.Size(1229, 749);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelSideMenu);
@@ -933,7 +863,7 @@ namespace PlayerUI
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelChildForm.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panelSideMenu.ResumeLayout(false);
@@ -976,13 +906,13 @@ namespace PlayerUI
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btn_Preview;
+        private System.Windows.Forms.Button btn_Next;
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.Button btn_trangchinh;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_Mophong;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button11;
@@ -991,11 +921,7 @@ namespace PlayerUI
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

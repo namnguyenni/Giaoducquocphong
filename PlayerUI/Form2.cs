@@ -21,5 +21,10 @@ namespace PlayerUI
         {
             this.Close();
         }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
