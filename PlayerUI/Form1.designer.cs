@@ -125,7 +125,6 @@ namespace PlayerUI
             // 
             this.panelChildForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
             this.panelChildForm.Controls.Add(this.panelSubmenuK54);
-            this.panelChildForm.Controls.Add(this.panelSubmenuAK47);
             this.panelChildForm.Controls.Add(this.panelSubmenuLuuDan);
             this.panelChildForm.Controls.Add(this.panelSubmenuCKC);
             this.panelChildForm.Controls.Add(this.panel2);
@@ -157,6 +156,7 @@ namespace PlayerUI
             // 
             this.panelSubmenuM79.BackColor = System.Drawing.Color.Transparent;
             this.panelSubmenuM79.Controls.Add(this.button35);
+            this.panelSubmenuM79.Controls.Add(this.panelSubmenuAK47);
             this.panelSubmenuM79.Controls.Add(this.button36);
             this.panelSubmenuM79.Controls.Add(this.button37);
             this.panelSubmenuM79.Controls.Add(this.button38);
@@ -193,7 +193,7 @@ namespace PlayerUI
             this.panelSubmenuAK47.Controls.Add(this.button5);
             this.panelSubmenuAK47.Controls.Add(this.button9);
             this.panelSubmenuAK47.Controls.Add(this.btn_AK47_Cautao);
-            this.panelSubmenuAK47.Location = new System.Drawing.Point(13, 100);
+            this.panelSubmenuAK47.Location = new System.Drawing.Point(0, 0);
             this.panelSubmenuAK47.Name = "panelSubmenuAK47";
             this.panelSubmenuAK47.Size = new System.Drawing.Size(164, 517);
             this.panelSubmenuAK47.TabIndex = 5;
