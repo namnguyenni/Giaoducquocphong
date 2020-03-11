@@ -172,6 +172,7 @@
   <ItemGroup>
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG" />
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO2.JPG" />
+    <None Include="Resources\1_SEARCH.png" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">

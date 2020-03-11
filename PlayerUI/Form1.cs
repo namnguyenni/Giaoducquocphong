@@ -12,6 +12,7 @@ namespace PlayerUI
 {
     public partial class Form1 : Form
     {
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         private int STT = 1;
         private bool ImageShowed = false;
         public Form1()
@@ -48,6 +49,10 @@ namespace PlayerUI
         private void btn_AK47_Click(object sender, EventArgs e)
         {
             showSubMenu(panel4);
+        }
+        private void btn_CKC_Click(object sender, EventArgs e)
+        {
+            showSubMenu(panel5);
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -251,8 +256,9 @@ namespace PlayerUI
             
         }
 
-       
-
-
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            player.Stop();
+        }
     }
 }

@@ -32,18 +32,19 @@ namespace PlayerUI
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelChildForm = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btn_Next = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.btn_Preview = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.btn_Mophong = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btn_trangchinh = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btn_trangchinh = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_Next = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_Preview = new System.Windows.Forms.Button();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.PanelSubmenuChinhtri = new System.Windows.Forms.Panel();
             this.button14 = new System.Windows.Forms.Button();
@@ -63,6 +64,7 @@ namespace PlayerUI
             this.button8 = new System.Windows.Forms.Button();
             this.btn_Dieulenh = new System.Windows.Forms.Button();
             this.panelMediaSubMenu = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.btn_K54 = new System.Windows.Forms.Button();
             this.btn_Luudan = new System.Windows.Forms.Button();
             this.btn_B41 = new System.Windows.Forms.Button();
@@ -75,9 +77,9 @@ namespace PlayerUI
             this.label2 = new System.Windows.Forms.Label();
             this.panelChildForm.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelSideMenu.SuspendLayout();
             this.PanelSubmenuChinhtri.SuspendLayout();
             this.panelToolsSubMenu.SuspendLayout();
@@ -112,6 +114,158 @@ namespace PlayerUI
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(849, 622);
             this.panel2.TabIndex = 7;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.Controls.Add(this.btn_Mophong);
+            this.panel4.Controls.Add(this.button5);
+            this.panel4.Controls.Add(this.button9);
+            this.panel4.Controls.Add(this.button11);
+            this.panel4.Location = new System.Drawing.Point(10, 115);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(164, 517);
+            this.panel4.TabIndex = 5;
+            // 
+            // btn_Mophong
+            // 
+            this.btn_Mophong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Mophong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Mophong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Mophong.FlatAppearance.BorderSize = 0;
+            this.btn_Mophong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Mophong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Mophong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Mophong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Mophong.ForeColor = System.Drawing.Color.White;
+            this.btn_Mophong.Location = new System.Drawing.Point(0, 120);
+            this.btn_Mophong.Name = "btn_Mophong";
+            this.btn_Mophong.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.btn_Mophong.Size = new System.Drawing.Size(164, 40);
+            this.btn_Mophong.TabIndex = 3;
+            this.btn_Mophong.Text = "4. Mô phỏng";
+            this.btn_Mophong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Mophong.UseVisualStyleBackColor = false;
+            this.btn_Mophong.Click += new System.EventHandler(this.btn_Mophong_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 80);
+            this.button5.Name = "button5";
+            this.button5.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button5.Size = new System.Drawing.Size(164, 40);
+            this.button5.TabIndex = 2;
+            this.button5.Text = "3. Chuyển động";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(0, 40);
+            this.button9.Name = "button9";
+            this.button9.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button9.Size = new System.Drawing.Size(164, 40);
+            this.button9.TabIndex = 1;
+            this.button9.Text = "2. Ứng dụng";
+            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button9.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button11.FlatAppearance.BorderSize = 0;
+            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.White;
+            this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.Location = new System.Drawing.Point(0, 0);
+            this.button11.Name = "button11";
+            this.button11.Padding = new System.Windows.Forms.Padding(25, 0, 0, 0);
+            this.button11.Size = new System.Drawing.Size(164, 40);
+            this.button11.TabIndex = 0;
+            this.button11.Text = "1. Cấu tạo";
+            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click_1);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.panel1.Controls.Add(this.button3);
+            this.panel1.Controls.Add(this.btn_trangchinh);
+            this.panel1.Controls.Add(this.panel3);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.Location = new System.Drawing.Point(190, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1039, 57);
+            this.panel1.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.panel3.Location = new System.Drawing.Point(213, 112);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1018, 699);
+            this.panel3.TabIndex = 1;
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.BorderSize = 0;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Image = global::PlayerUI.Properties.Resources._1_PAUSE;
+            this.button3.Location = new System.Drawing.Point(983, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(46, 35);
+            this.button3.TabIndex = 1;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // btn_trangchinh
+            // 
+            this.btn_trangchinh.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_trangchinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_trangchinh.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_trangchinh.FlatAppearance.BorderSize = 0;
+            this.btn_trangchinh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_trangchinh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_trangchinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_trangchinh.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_trangchinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
+            this.btn_trangchinh.Image = global::PlayerUI.Properties.Resources._1_HOME;
+            this.btn_trangchinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_trangchinh.Location = new System.Drawing.Point(10, 7);
+            this.btn_trangchinh.Name = "btn_trangchinh";
+            this.btn_trangchinh.Size = new System.Drawing.Size(186, 44);
+            this.btn_trangchinh.TabIndex = 0;
+            this.btn_trangchinh.Text = "TRANG CHỦ";
+            this.btn_trangchinh.UseVisualStyleBackColor = true;
+            this.btn_trangchinh.Click += new System.EventHandler(this.btn_trangchinh_Click);
             // 
             // pictureBox1
             // 
@@ -154,7 +308,7 @@ namespace PlayerUI
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(195, 37);
             this.label1.TabIndex = 6;
-            this.label1.Text = "1. CẤU TẠO";
+            this.label1.Text = "Nội dung chi tiết";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_Preview
@@ -177,141 +331,6 @@ namespace PlayerUI
             this.btn_Preview.TabIndex = 2;
             this.btn_Preview.UseVisualStyleBackColor = false;
             this.btn_Preview.Click += new System.EventHandler(this.btn_Preview_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.Controls.Add(this.btn_Mophong);
-            this.panel4.Controls.Add(this.button5);
-            this.panel4.Controls.Add(this.button9);
-            this.panel4.Controls.Add(this.button11);
-            this.panel4.Location = new System.Drawing.Point(10, 115);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(164, 517);
-            this.panel4.TabIndex = 5;
-            // 
-            // btn_Mophong
-            // 
-            this.btn_Mophong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.btn_Mophong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_Mophong.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btn_Mophong.FlatAppearance.BorderSize = 0;
-            this.btn_Mophong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.btn_Mophong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.btn_Mophong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Mophong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Mophong.ForeColor = System.Drawing.Color.White;
-            this.btn_Mophong.Location = new System.Drawing.Point(0, 120);
-            this.btn_Mophong.Name = "btn_Mophong";
-            this.btn_Mophong.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.btn_Mophong.Size = new System.Drawing.Size(164, 40);
-            this.btn_Mophong.TabIndex = 3;
-            this.btn_Mophong.Text = "4. Mô phỏng";
-            this.btn_Mophong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Mophong.UseVisualStyleBackColor = false;
-            this.btn_Mophong.Click += new System.EventHandler(this.btn_Mophong_Click);
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 80);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(164, 40);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "3. Chuyển động";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(0, 40);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(164, 40);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "2. Ứng dụng";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(164, 40);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "1. Cấu tạo";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click_1);
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.panel1.Controls.Add(this.btn_trangchinh);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.panel1.Location = new System.Drawing.Point(190, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1039, 57);
-            this.panel1.TabIndex = 3;
-            // 
-            // btn_trangchinh
-            // 
-            this.btn_trangchinh.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btn_trangchinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.btn_trangchinh.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.btn_trangchinh.FlatAppearance.BorderSize = 0;
-            this.btn_trangchinh.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_trangchinh.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btn_trangchinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_trangchinh.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_trangchinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
-            this.btn_trangchinh.Image = global::PlayerUI.Properties.Resources._1_HOME;
-            this.btn_trangchinh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_trangchinh.Location = new System.Drawing.Point(10, 3);
-            this.btn_trangchinh.Name = "btn_trangchinh";
-            this.btn_trangchinh.Size = new System.Drawing.Size(186, 44);
-            this.btn_trangchinh.TabIndex = 0;
-            this.btn_trangchinh.Text = "TRANG CHỦ";
-            this.btn_trangchinh.UseVisualStyleBackColor = true;
-            this.btn_trangchinh.Click += new System.EventHandler(this.btn_trangchinh_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.panel3.Location = new System.Drawing.Point(213, 112);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1018, 699);
-            this.panel3.TabIndex = 1;
             // 
             // panelSideMenu
             // 
@@ -342,7 +361,7 @@ namespace PlayerUI
             this.PanelSubmenuChinhtri.Controls.Add(this.button15);
             this.PanelSubmenuChinhtri.Controls.Add(this.button16);
             this.PanelSubmenuChinhtri.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PanelSubmenuChinhtri.Location = new System.Drawing.Point(0, 930);
+            this.PanelSubmenuChinhtri.Location = new System.Drawing.Point(0, 975);
             this.PanelSubmenuChinhtri.Name = "PanelSubmenuChinhtri";
             this.PanelSubmenuChinhtri.Size = new System.Drawing.Size(173, 130);
             this.PanelSubmenuChinhtri.TabIndex = 8;
@@ -417,7 +436,7 @@ namespace PlayerUI
             this.btn_Chinhtri.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
             this.btn_Chinhtri.Image = global::PlayerUI.Properties.Resources._1_CHINHTRI;
             this.btn_Chinhtri.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Chinhtri.Location = new System.Drawing.Point(0, 885);
+            this.btn_Chinhtri.Location = new System.Drawing.Point(0, 930);
             this.btn_Chinhtri.Name = "btn_Chinhtri";
             this.btn_Chinhtri.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btn_Chinhtri.Size = new System.Drawing.Size(173, 45);
@@ -440,7 +459,7 @@ namespace PlayerUI
             this.btn_Thoat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Thoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
             this.btn_Thoat.Image = global::PlayerUI.Properties.Resources._1_EXIT;
-            this.btn_Thoat.Location = new System.Drawing.Point(0, 1060);
+            this.btn_Thoat.Location = new System.Drawing.Point(0, 1105);
             this.btn_Thoat.Name = "btn_Thoat";
             this.btn_Thoat.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btn_Thoat.Size = new System.Drawing.Size(173, 45);
@@ -457,7 +476,7 @@ namespace PlayerUI
             this.panelToolsSubMenu.Controls.Add(this.button12);
             this.panelToolsSubMenu.Controls.Add(this.button13);
             this.panelToolsSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 761);
+            this.panelToolsSubMenu.Location = new System.Drawing.Point(0, 806);
             this.panelToolsSubMenu.Name = "panelToolsSubMenu";
             this.panelToolsSubMenu.Size = new System.Drawing.Size(173, 124);
             this.panelToolsSubMenu.TabIndex = 7;
@@ -535,7 +554,7 @@ namespace PlayerUI
             this.btn_Chienthuat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
             this.btn_Chienthuat.Image = global::PlayerUI.Properties.Resources._1_CHIENTHUAT;
             this.btn_Chienthuat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Chienthuat.Location = new System.Drawing.Point(0, 716);
+            this.btn_Chienthuat.Location = new System.Drawing.Point(0, 761);
             this.btn_Chienthuat.Name = "btn_Chienthuat";
             this.btn_Chienthuat.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btn_Chienthuat.Size = new System.Drawing.Size(173, 45);
@@ -554,7 +573,7 @@ namespace PlayerUI
             this.panelPlaylistSubMenu.Controls.Add(this.button7);
             this.panelPlaylistSubMenu.Controls.Add(this.button8);
             this.panelPlaylistSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelPlaylistSubMenu.Location = new System.Drawing.Point(0, 551);
+            this.panelPlaylistSubMenu.Location = new System.Drawing.Point(0, 596);
             this.panelPlaylistSubMenu.Name = "panelPlaylistSubMenu";
             this.panelPlaylistSubMenu.Size = new System.Drawing.Size(173, 165);
             this.panelPlaylistSubMenu.TabIndex = 4;
@@ -652,7 +671,7 @@ namespace PlayerUI
             this.btn_Dieulenh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
             this.btn_Dieulenh.Image = global::PlayerUI.Properties.Resources._1_DIEULENH;
             this.btn_Dieulenh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_Dieulenh.Location = new System.Drawing.Point(0, 506);
+            this.btn_Dieulenh.Location = new System.Drawing.Point(0, 551);
             this.btn_Dieulenh.Name = "btn_Dieulenh";
             this.btn_Dieulenh.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
             this.btn_Dieulenh.Size = new System.Drawing.Size(173, 45);
@@ -666,6 +685,7 @@ namespace PlayerUI
             // panelMediaSubMenu
             // 
             this.panelMediaSubMenu.BackColor = System.Drawing.Color.Transparent;
+            this.panelMediaSubMenu.Controls.Add(this.button2);
             this.panelMediaSubMenu.Controls.Add(this.btn_K54);
             this.panelMediaSubMenu.Controls.Add(this.btn_Luudan);
             this.panelMediaSubMenu.Controls.Add(this.btn_B41);
@@ -674,8 +694,27 @@ namespace PlayerUI
             this.panelMediaSubMenu.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelMediaSubMenu.Location = new System.Drawing.Point(0, 300);
             this.panelMediaSubMenu.Name = "panelMediaSubMenu";
-            this.panelMediaSubMenu.Size = new System.Drawing.Size(173, 206);
+            this.panelMediaSubMenu.Size = new System.Drawing.Size(173, 251);
             this.panelMediaSubMenu.TabIndex = 2;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 206);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(173, 44);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "M79";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // btn_K54
             // 
@@ -863,9 +902,9 @@ namespace PlayerUI
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panelChildForm.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelSideMenu.ResumeLayout(false);
             this.PanelSubmenuChinhtri.ResumeLayout(false);
             this.panelToolsSubMenu.ResumeLayout(false);
@@ -916,12 +955,14 @@ namespace PlayerUI
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
