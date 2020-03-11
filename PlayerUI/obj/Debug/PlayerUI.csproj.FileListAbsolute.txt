@@ -61,3 +61,15 @@ C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.reso
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
 C:\Github\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.pdb
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.exe.config
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.exe
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.pdb
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form4.resources
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.cache
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.pdb
+D:\GitHub Folder\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csprojAssemblyReference.cache
