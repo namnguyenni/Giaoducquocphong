@@ -170,6 +170,89 @@
     <None Include="Resources\1_EXITT.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-1.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-10.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-11.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-12.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-13.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-14.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-15.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-16.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-17.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-18.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-19.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-2.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-20.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-21.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-22.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-23.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-24.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-25.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-26.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-27.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-28.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-29.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-3.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-30.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-31.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-32.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-33.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-34.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-35.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-36.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-37.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-38.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-39.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-4.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-40.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-41.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-42.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-43.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-5.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-6.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-7.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-8.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai1\DIEULENH-BAI1-9.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-1.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-10.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-11.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-12.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-13.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-14.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-15.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-16.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-17.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-18.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-19.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-2.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-20.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-21.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-22.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-23.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-24.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-25.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-26.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-27.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-28.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-29.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-3.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-30.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-31.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-32.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-33.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-34.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-35.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-36.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-37.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-38.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-39.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-4.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-40.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-5.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-6.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-7.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-8.jpg" />
+    <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-9.jpg" />
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG" />
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO2.JPG" />
     <Content Include="ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4" />
@@ -192,6 +275,9 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ImageAndVideo\Dieulenh\Video\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

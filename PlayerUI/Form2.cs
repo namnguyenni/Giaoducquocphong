@@ -14,8 +14,19 @@ namespace PlayerUI
     {
         public Form2()
         {
-            new HandleEventInForm1().ShowVideoMophong(1, axWindowsMediaPlayer1);
+            //E:\Unity\Giaoducquocphong\PlayerUI\ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4
             InitializeComponent();
+
+            if (new HandleEventInForm1().ShowVideoMophong(1) != "")
+            {
+                string path = new HandleEventInForm1().ShowVideoMophong(1);
+                axWindowsMediaPlayer1.URL = path;
+                //axWindowsMediaPlayer1.URL = @"E:\Unity\Giaoducquocphong\PlayerUI\ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4";
+                axWindowsMediaPlayer1.Ctlcontrols.play();
+            }
+            
+            //new HandleEventInForm1().ShowVideoMophong(1, axWindowsMediaPlayer1);
+            //axWindowsMediaPlayer1.Ctlcontrols.play();
         }
 
         private void button5_Click(object sender, EventArgs e)

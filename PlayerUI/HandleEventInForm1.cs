@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,10 +15,8 @@ namespace PlayerUI
 {
     class HandleEventInForm1
     {
-        public HandleEventInForm1()
-        {
-            //C:\Github\Giaoducquocphong\PlayerUI\ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG
-        }
+        public HandleEventInForm1() { }
+
         /// <summary>
         /// Hien thi cau tao vao picturebox
         /// </summary>
@@ -25,12 +24,9 @@ namespace PlayerUI
         /// <param name="code"></param>
         /// <param name="stt"></param>
         /// <returns></returns>
-        public static bool ShowCautao(PictureBox pic, int code, int stt)
+        public static bool ShowLithuyetVukhi(PictureBox pic, int code, int stt)
         {
             bool EnableCount = false;
-            //string = \ImageAndVideo\Vukhi\Image\AK47\
-            string LINK = "";
-
             switch (code)
             {
                 case 1://ak
@@ -91,8 +87,6 @@ namespace PlayerUI
 
                     }
                     break;
-
-
                 default:
                     break;
             }
@@ -100,6 +94,24 @@ namespace PlayerUI
 
         }
 
+        public static bool ShowLithuyetDieulenh(PictureBox pic, int Baiso, int stt)
+        {
+            bool EnableCount = false;
+
+                    string LinkBai = @"..\..\ImageAndVideo\Dieulenh\Image\Bai" + Baiso + @"\DIEULENH-BAI"+Baiso +"-" + stt + ".JPG";
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Dieulenh\Image\Bai" + Baiso, stt))
+                    {
+                        pic.Image = Image.FromFile(LinkBai);
+                        pic.Refresh();
+                        pic.Visible = true;
+                        EnableCount = true;
+
+                    }
+
+
+
+            return EnableCount;
+        }
 
         public static bool CheckCountIn(string path, int stt)
         {
@@ -120,15 +132,14 @@ namespace PlayerUI
         /// Hiển thị video mô phỏng của các phần
         /// </summary>
         /// <param name="code"></param>
-        public void ShowVideoMophong(int code,AxWindowsMediaPlayer mediaPlayer)
+        public string ShowVideoMophong(int code)
         {
+            string path = "";
+
             switch (code)
             {
                 case 1 ://video ak
-                    string Path = @"..\..\ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4";
-                    mediaPlayer.URL = Path;
-                    
-                    //mediaPlayer.controls.play();
+                    path = getFilePath(@"\ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4");                                       
                     break;
                 case 2 :
                     break;
@@ -139,8 +150,16 @@ namespace PlayerUI
                 default:
                     break;
             }
+            return path;
 
         }
+        public string getFilePath(string FileName)
+        {
+            string AppPath = System.IO.Directory.GetParent(System.IO.Directory.GetParent(Environment.CurrentDirectory).ToString()).ToString();          
 
+            string path = AppPath + FileName;
+
+            return path;
+        }
     }
 }

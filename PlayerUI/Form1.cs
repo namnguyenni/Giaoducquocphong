@@ -14,29 +14,55 @@ namespace PlayerUI
     {
         private int STT = 1;
         private bool ImageShowed = false;
+        private Button CurrentButton = null;
+        private Form form2 = null;
         public Form1()
         {
             InitializeComponent();
             hideSubMenu();
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+        }
+
+        private void HideSubPanel()
+        {
+            panelSubMenuVukhi.Visible = false;
+            panelSubMenuDieulenh.Visible = false;
+            panelSubMenuChienthuat.Visible = false;
+            panelSubMenuChinhtri.Visible = false;
+        }
+        private void ShowSubPanel(Panel panel)
+        {
+            if (panel.Visible == false)
+            {
+                HideSubPanel();
+                panel.Visible = true;
+            }
+            else
+                HideSubPanel();
         }
 
         private void hideSubMenu()
         {
             panelMediaSubMenu.Visible = false;
             panelPlaylistSubMenu.Visible = false;
-            panelToolsSubMenu.Visible = false;
-            PanelSubmenuChinhtri.Visible = false;
+            panelChienthuat.Visible = false;
+            PanelChinhtri.Visible = false;
+
+
         }
+
+
 
         private void showSubMenu(Panel subMenu)
         {
             if (subMenu.Visible == false)
             {
+
                 hideSubMenu();
                 subMenu.Visible = true;
             }
             else
-                subMenu.Visible = false;
+                subMenu.Visible = false ;
         }
 
         private void btnMedia_Click(object sender, EventArgs e)
@@ -47,31 +73,27 @@ namespace PlayerUI
         #region MediaSubMenu
         private void btn_AK47_Click(object sender, EventArgs e)
         {
-            showSubMenu(panel4);
+            if (CurrentButton != btn_AK47 )
+            {
+                ShowSubPanel(panelSubMenuVukhi);
+                CurrentButton = btn_AK47;
+            }
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuVukhi);
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuVukhi);
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuVukhi);
         }
         #endregion
 
@@ -83,64 +105,43 @@ namespace PlayerUI
         #region PlayListManagemetSubMenu
         private void button8_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuDieulenh);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuDieulenh);
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuDieulenh);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuDieulenh);
         }
         #endregion
 
         private void btnTools_Click(object sender, EventArgs e)
         {
-            showSubMenu(panelToolsSubMenu);
+            showSubMenu(panelChienthuat);
         }
         #region ToolsSubMenu
         private void button13_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuChienthuat);
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuChienthuat);
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            //..
-            //your codes
-            //..
-            hideSubMenu();
+            ShowSubPanel(panelSubMenuChienthuat);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -189,12 +190,12 @@ namespace PlayerUI
 
         private void button11_Click(object sender, EventArgs e)
         {
-
+            ShowSubPanel(panelSubMenuVukhi);
         }
 
         private void btnEqualizer_Click_1(object sender, EventArgs e)
         {
-            showSubMenu(PanelSubmenuChinhtri);
+            showSubMenu(PanelChinhtri);
         }
 
         private void Placeholder(string text,TextBox tbx)
@@ -218,20 +219,27 @@ namespace PlayerUI
 
         private void button11_Click_1(object sender, EventArgs e)
         {
-            HandleEventInForm1.ShowCautao(pictureBox1, 1, STT);
+            if (form2 != null)
+            {
+                form2.Close();
+            }
+            pictureBox1.BringToFront();
+            
+            HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT);
             ImageShowed = true;
         }
 
         private void btn_Mophong_Click(object sender, EventArgs e)
         {
-            openChildForm(new Form2());
+            form2 = new Form2();
+            openChildForm(form2);
         }
 
         private void btn_Preview_Click(object sender, EventArgs e)
         {
             if (ImageShowed)
             {
-                if (HandleEventInForm1.ShowCautao(pictureBox1, 1, STT - 1))
+                if (HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT - 1))
                 {
                     STT--;
                 }
@@ -243,12 +251,32 @@ namespace PlayerUI
         {
             if (ImageShowed)
             {
-                if (HandleEventInForm1.ShowCautao(pictureBox1, 1, STT + 1))
+                if (HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT + 1))
                 {
                     STT++;
                 }
             }
             
+        }
+
+        private void btn_LythuyetDieulenh_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            ShowSubPanel(panelSubMenuChinhtri);
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ShowSubPanel(panelSubMenuChinhtri);
+        }
+
+        private void button14_Click(object sender, EventArgs e)
+        {
+            ShowSubPanel(panelSubMenuChinhtri);
         }
 
        
