@@ -37,8 +37,9 @@ namespace PlayerUI
                 HideSubPanel();
                 panel.Visible = true;
             }
-            else
-                HideSubPanel();
+            else HideSubPanel();
+            
+                
         }
 
         private void hideSubMenu()
@@ -73,11 +74,10 @@ namespace PlayerUI
         #region MediaSubMenu
         private void btn_AK47_Click(object sender, EventArgs e)
         {
-            if (CurrentButton != btn_AK47 )
-            {
-                ShowSubPanel(panelSubMenuVukhi);
                 CurrentButton = btn_AK47;
-            }
+                ShowSubPanel(panelSubMenuVukhi);
+                
+            
             
         }
 

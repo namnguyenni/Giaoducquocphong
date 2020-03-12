@@ -36,7 +36,12 @@ namespace PlayerUI
 
         private void button18_Click(object sender, EventArgs e)
         {
+            axWindowsMediaPlayer1.Ctlcontrols.stop();
+        }
 
+        private void button20_Click(object sender, EventArgs e)
+        {
+            axWindowsMediaPlayer1.Ctlcontrols.next();
         }
     }
 }
