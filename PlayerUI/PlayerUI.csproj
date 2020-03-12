@@ -255,6 +255,10 @@
     <Content Include="ImageAndVideo\Dieulenh\Image\Bai2\DIEULENH-BAI2-9.jpg" />
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO1.JPG" />
     <Content Include="ImageAndVideo\Vukhi\Image\AK47\AK_CAUTAO2.JPG" />
+    <Content Include="ImageAndVideo\Vukhi\Image\B41\B41_CAUTAO1.JPG" />
+    <Content Include="ImageAndVideo\Vukhi\Image\CKC\CKC_CAUTAO1.JPG" />
+    <Content Include="ImageAndVideo\Vukhi\Image\K54\K54_CAUTAO1.JPG" />
+    <Content Include="ImageAndVideo\Vukhi\Image\Luudan\Luudan_CAUTAO1.JPG" />
     <Content Include="ImageAndVideo\Vukhi\Video\AK47\AK47_MOPHONG1.mp4" />
   </ItemGroup>
   <ItemGroup>

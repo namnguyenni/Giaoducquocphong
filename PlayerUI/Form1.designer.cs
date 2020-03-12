@@ -45,9 +45,9 @@ namespace PlayerUI
             this.btn_LythuyetDieulenh = new System.Windows.Forms.Button();
             this.panelSubMenuVukhi = new System.Windows.Forms.Panel();
             this.btn_Mophong = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.btn_Chuyendong = new System.Windows.Forms.Button();
+            this.btn_Ungdung = new System.Windows.Forms.Button();
+            this.btn_Cautao = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Next = new System.Windows.Forms.Button();
@@ -60,15 +60,15 @@ namespace PlayerUI
             this.panel3 = new System.Windows.Forms.Panel();
             this.panelSideMenu = new System.Windows.Forms.Panel();
             this.PanelChinhtri = new System.Windows.Forms.Panel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.btn_Bai3_Chinhtri = new System.Windows.Forms.Button();
+            this.btn_Bai2_Chinhtri = new System.Windows.Forms.Button();
+            this.btn_Bai1_Chinhtri = new System.Windows.Forms.Button();
             this.btn_Chinhtri = new System.Windows.Forms.Button();
             this.btn_Thoat = new System.Windows.Forms.Button();
             this.panelChienthuat = new System.Windows.Forms.Panel();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
+            this.btn_Bai3_Chienthuat = new System.Windows.Forms.Button();
+            this.btn_Bai2_Chienthuat = new System.Windows.Forms.Button();
+            this.btn_Bai1_Chienthuat = new System.Windows.Forms.Button();
             this.btn_Chienthuat = new System.Windows.Forms.Button();
             this.panelPlaylistSubMenu = new System.Windows.Forms.Panel();
             this.btn_Bai4_Dieulenh = new System.Windows.Forms.Button();
@@ -333,9 +333,9 @@ namespace PlayerUI
             // 
             this.panelSubMenuVukhi.BackColor = System.Drawing.Color.Transparent;
             this.panelSubMenuVukhi.Controls.Add(this.btn_Mophong);
-            this.panelSubMenuVukhi.Controls.Add(this.button5);
-            this.panelSubMenuVukhi.Controls.Add(this.button9);
-            this.panelSubMenuVukhi.Controls.Add(this.button11);
+            this.panelSubMenuVukhi.Controls.Add(this.btn_Chuyendong);
+            this.panelSubMenuVukhi.Controls.Add(this.btn_Ungdung);
+            this.panelSubMenuVukhi.Controls.Add(this.btn_Cautao);
             this.panelSubMenuVukhi.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelSubMenuVukhi.Location = new System.Drawing.Point(0, 0);
             this.panelSubMenuVukhi.Name = "panelSubMenuVukhi";
@@ -363,66 +363,66 @@ namespace PlayerUI
             this.btn_Mophong.UseVisualStyleBackColor = false;
             this.btn_Mophong.Click += new System.EventHandler(this.btn_Mophong_Click);
             // 
-            // button5
+            // btn_Chuyendong
             // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 80);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(164, 40);
-            this.button5.TabIndex = 2;
-            this.button5.Text = "3. Chuyển động";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btn_Chuyendong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Chuyendong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Chuyendong.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Chuyendong.FlatAppearance.BorderSize = 0;
+            this.btn_Chuyendong.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Chuyendong.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Chuyendong.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Chuyendong.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Chuyendong.ForeColor = System.Drawing.Color.White;
+            this.btn_Chuyendong.Location = new System.Drawing.Point(0, 80);
+            this.btn_Chuyendong.Name = "btn_Chuyendong";
+            this.btn_Chuyendong.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Chuyendong.Size = new System.Drawing.Size(164, 40);
+            this.btn_Chuyendong.TabIndex = 2;
+            this.btn_Chuyendong.Text = "3. Chuyển động";
+            this.btn_Chuyendong.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Chuyendong.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btn_Ungdung
             // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(0, 40);
-            this.button9.Name = "button9";
-            this.button9.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button9.Size = new System.Drawing.Size(164, 40);
-            this.button9.TabIndex = 1;
-            this.button9.Text = "2. Ứng dụng";
-            this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button9.UseVisualStyleBackColor = false;
+            this.btn_Ungdung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Ungdung.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Ungdung.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Ungdung.FlatAppearance.BorderSize = 0;
+            this.btn_Ungdung.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Ungdung.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Ungdung.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Ungdung.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Ungdung.ForeColor = System.Drawing.Color.White;
+            this.btn_Ungdung.Location = new System.Drawing.Point(0, 40);
+            this.btn_Ungdung.Name = "btn_Ungdung";
+            this.btn_Ungdung.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Ungdung.Size = new System.Drawing.Size(164, 40);
+            this.btn_Ungdung.TabIndex = 1;
+            this.btn_Ungdung.Text = "2. Ứng dụng";
+            this.btn_Ungdung.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Ungdung.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btn_Cautao
             // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.button11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(0, 0);
-            this.button11.Name = "button11";
-            this.button11.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button11.Size = new System.Drawing.Size(164, 40);
-            this.button11.TabIndex = 0;
-            this.button11.Text = "1. Cấu tạo";
-            this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click_1);
+            this.btn_Cautao.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Cautao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.btn_Cautao.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Cautao.FlatAppearance.BorderSize = 0;
+            this.btn_Cautao.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Cautao.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Cautao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Cautao.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Cautao.ForeColor = System.Drawing.Color.White;
+            this.btn_Cautao.Location = new System.Drawing.Point(0, 0);
+            this.btn_Cautao.Name = "btn_Cautao";
+            this.btn_Cautao.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Cautao.Size = new System.Drawing.Size(164, 40);
+            this.btn_Cautao.TabIndex = 0;
+            this.btn_Cautao.Text = "1. Cấu tạo";
+            this.btn_Cautao.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Cautao.UseVisualStyleBackColor = false;
+            this.btn_Cautao.Click += new System.EventHandler(this.btn_Cautao_Click_1);
             // 
             // panel2
             // 
@@ -609,74 +609,74 @@ namespace PlayerUI
             // PanelChinhtri
             // 
             this.PanelChinhtri.BackColor = System.Drawing.Color.Transparent;
-            this.PanelChinhtri.Controls.Add(this.button14);
-            this.PanelChinhtri.Controls.Add(this.button15);
-            this.PanelChinhtri.Controls.Add(this.button16);
+            this.PanelChinhtri.Controls.Add(this.btn_Bai3_Chinhtri);
+            this.PanelChinhtri.Controls.Add(this.btn_Bai2_Chinhtri);
+            this.PanelChinhtri.Controls.Add(this.btn_Bai1_Chinhtri);
             this.PanelChinhtri.Dock = System.Windows.Forms.DockStyle.Top;
             this.PanelChinhtri.Location = new System.Drawing.Point(0, 930);
             this.PanelChinhtri.Name = "PanelChinhtri";
             this.PanelChinhtri.Size = new System.Drawing.Size(173, 130);
             this.PanelChinhtri.TabIndex = 8;
             // 
-            // button14
+            // btn_Bai3_Chinhtri
             // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button14.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(0, 80);
-            this.button14.Name = "button14";
-            this.button14.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button14.Size = new System.Drawing.Size(173, 44);
-            this.button14.TabIndex = 2;
-            this.button14.Text = "Bài 3";
-            this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.btn_Bai3_Chinhtri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai3_Chinhtri.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai3_Chinhtri.FlatAppearance.BorderSize = 0;
+            this.btn_Bai3_Chinhtri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai3_Chinhtri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai3_Chinhtri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai3_Chinhtri.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai3_Chinhtri.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai3_Chinhtri.Location = new System.Drawing.Point(0, 80);
+            this.btn_Bai3_Chinhtri.Name = "btn_Bai3_Chinhtri";
+            this.btn_Bai3_Chinhtri.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai3_Chinhtri.Size = new System.Drawing.Size(173, 44);
+            this.btn_Bai3_Chinhtri.TabIndex = 2;
+            this.btn_Bai3_Chinhtri.Text = "Bài 3";
+            this.btn_Bai3_Chinhtri.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai3_Chinhtri.UseVisualStyleBackColor = false;
+            this.btn_Bai3_Chinhtri.Click += new System.EventHandler(this.btn_Bai3_Chinhtri_Click);
             // 
-            // button15
+            // btn_Bai2_Chinhtri
             // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button15.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(0, 40);
-            this.button15.Name = "button15";
-            this.button15.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button15.Size = new System.Drawing.Size(173, 40);
-            this.button15.TabIndex = 1;
-            this.button15.Text = "Bài 2";
-            this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.btn_Bai2_Chinhtri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai2_Chinhtri.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai2_Chinhtri.FlatAppearance.BorderSize = 0;
+            this.btn_Bai2_Chinhtri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai2_Chinhtri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai2_Chinhtri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai2_Chinhtri.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai2_Chinhtri.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai2_Chinhtri.Location = new System.Drawing.Point(0, 40);
+            this.btn_Bai2_Chinhtri.Name = "btn_Bai2_Chinhtri";
+            this.btn_Bai2_Chinhtri.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai2_Chinhtri.Size = new System.Drawing.Size(173, 40);
+            this.btn_Bai2_Chinhtri.TabIndex = 1;
+            this.btn_Bai2_Chinhtri.Text = "Bài 2";
+            this.btn_Bai2_Chinhtri.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai2_Chinhtri.UseVisualStyleBackColor = false;
+            this.btn_Bai2_Chinhtri.Click += new System.EventHandler(this.btn_Bai2_Chinhtri_Click);
             // 
-            // button16
+            // btn_Bai1_Chinhtri
             // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button16.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(0, 0);
-            this.button16.Name = "button16";
-            this.button16.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button16.Size = new System.Drawing.Size(173, 40);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "Bài 1";
-            this.button16.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
+            this.btn_Bai1_Chinhtri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai1_Chinhtri.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai1_Chinhtri.FlatAppearance.BorderSize = 0;
+            this.btn_Bai1_Chinhtri.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai1_Chinhtri.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai1_Chinhtri.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai1_Chinhtri.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai1_Chinhtri.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai1_Chinhtri.Location = new System.Drawing.Point(0, 0);
+            this.btn_Bai1_Chinhtri.Name = "btn_Bai1_Chinhtri";
+            this.btn_Bai1_Chinhtri.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai1_Chinhtri.Size = new System.Drawing.Size(173, 40);
+            this.btn_Bai1_Chinhtri.TabIndex = 0;
+            this.btn_Bai1_Chinhtri.Text = "Bài 1";
+            this.btn_Bai1_Chinhtri.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai1_Chinhtri.UseVisualStyleBackColor = false;
+            this.btn_Bai1_Chinhtri.Click += new System.EventHandler(this.btn_Bai1_Chinhtri_Click);
             // 
             // btn_Chinhtri
             // 
@@ -727,74 +727,74 @@ namespace PlayerUI
             // panelChienthuat
             // 
             this.panelChienthuat.BackColor = System.Drawing.Color.Transparent;
-            this.panelChienthuat.Controls.Add(this.button10);
-            this.panelChienthuat.Controls.Add(this.button12);
-            this.panelChienthuat.Controls.Add(this.button13);
+            this.panelChienthuat.Controls.Add(this.btn_Bai3_Chienthuat);
+            this.panelChienthuat.Controls.Add(this.btn_Bai2_Chienthuat);
+            this.panelChienthuat.Controls.Add(this.btn_Bai1_Chienthuat);
             this.panelChienthuat.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelChienthuat.Location = new System.Drawing.Point(0, 761);
             this.panelChienthuat.Name = "panelChienthuat";
             this.panelChienthuat.Size = new System.Drawing.Size(173, 124);
             this.panelChienthuat.TabIndex = 7;
             // 
-            // button10
+            // btn_Bai3_Chienthuat
             // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(0, 80);
-            this.button10.Name = "button10";
-            this.button10.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button10.Size = new System.Drawing.Size(173, 41);
-            this.button10.TabIndex = 2;
-            this.button10.Text = "Bài 3";
-            this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button10.UseVisualStyleBackColor = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.btn_Bai3_Chienthuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai3_Chienthuat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai3_Chienthuat.FlatAppearance.BorderSize = 0;
+            this.btn_Bai3_Chienthuat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai3_Chienthuat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai3_Chienthuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai3_Chienthuat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai3_Chienthuat.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai3_Chienthuat.Location = new System.Drawing.Point(0, 80);
+            this.btn_Bai3_Chienthuat.Name = "btn_Bai3_Chienthuat";
+            this.btn_Bai3_Chienthuat.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai3_Chienthuat.Size = new System.Drawing.Size(173, 41);
+            this.btn_Bai3_Chienthuat.TabIndex = 2;
+            this.btn_Bai3_Chienthuat.Text = "Bài 3";
+            this.btn_Bai3_Chienthuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai3_Chienthuat.UseVisualStyleBackColor = false;
+            this.btn_Bai3_Chienthuat.Click += new System.EventHandler(this.btn_Bai3_Chienthuat_Click);
             // 
-            // button12
+            // btn_Bai2_Chienthuat
             // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button12.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(0, 40);
-            this.button12.Name = "button12";
-            this.button12.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button12.Size = new System.Drawing.Size(173, 40);
-            this.button12.TabIndex = 1;
-            this.button12.Text = "Bài 2";
-            this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
+            this.btn_Bai2_Chienthuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai2_Chienthuat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai2_Chienthuat.FlatAppearance.BorderSize = 0;
+            this.btn_Bai2_Chienthuat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai2_Chienthuat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai2_Chienthuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai2_Chienthuat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai2_Chienthuat.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai2_Chienthuat.Location = new System.Drawing.Point(0, 40);
+            this.btn_Bai2_Chienthuat.Name = "btn_Bai2_Chienthuat";
+            this.btn_Bai2_Chienthuat.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai2_Chienthuat.Size = new System.Drawing.Size(173, 40);
+            this.btn_Bai2_Chienthuat.TabIndex = 1;
+            this.btn_Bai2_Chienthuat.Text = "Bài 2";
+            this.btn_Bai2_Chienthuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai2_Chienthuat.UseVisualStyleBackColor = false;
+            this.btn_Bai2_Chienthuat.Click += new System.EventHandler(this.btn_Bai2_Chienthuat_Click);
             // 
-            // button13
+            // btn_Bai1_Chienthuat
             // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
-            this.button13.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(0, 0);
-            this.button13.Name = "button13";
-            this.button13.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
-            this.button13.Size = new System.Drawing.Size(173, 40);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "Bài 1";
-            this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button13.UseVisualStyleBackColor = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
+            this.btn_Bai1_Chienthuat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(43)))), ((int)(((byte)(63)))));
+            this.btn_Bai1_Chienthuat.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btn_Bai1_Chienthuat.FlatAppearance.BorderSize = 0;
+            this.btn_Bai1_Chienthuat.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai1_Chienthuat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
+            this.btn_Bai1_Chienthuat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Bai1_Chienthuat.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Bai1_Chienthuat.ForeColor = System.Drawing.Color.White;
+            this.btn_Bai1_Chienthuat.Location = new System.Drawing.Point(0, 0);
+            this.btn_Bai1_Chienthuat.Name = "btn_Bai1_Chienthuat";
+            this.btn_Bai1_Chienthuat.Padding = new System.Windows.Forms.Padding(35, 0, 0, 0);
+            this.btn_Bai1_Chienthuat.Size = new System.Drawing.Size(173, 40);
+            this.btn_Bai1_Chienthuat.TabIndex = 0;
+            this.btn_Bai1_Chienthuat.Text = "Bài 1";
+            this.btn_Bai1_Chienthuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Bai1_Chienthuat.UseVisualStyleBackColor = false;
+            this.btn_Bai1_Chienthuat.Click += new System.EventHandler(this.btn_Bai1_Chienthuat_Click);
             // 
             // btn_Chienthuat
             // 
@@ -851,7 +851,7 @@ namespace PlayerUI
             this.btn_Bai4_Dieulenh.Text = "Bài 4";
             this.btn_Bai4_Dieulenh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Bai4_Dieulenh.UseVisualStyleBackColor = false;
-            this.btn_Bai4_Dieulenh.Click += new System.EventHandler(this.button1_Click);
+            this.btn_Bai4_Dieulenh.Click += new System.EventHandler(this.btn_Bai4_Dieulenh_Click);
             // 
             // btn_Bai3_Dieulenh
             // 
@@ -871,7 +871,7 @@ namespace PlayerUI
             this.btn_Bai3_Dieulenh.Text = "Bài 3";
             this.btn_Bai3_Dieulenh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Bai3_Dieulenh.UseVisualStyleBackColor = false;
-            this.btn_Bai3_Dieulenh.Click += new System.EventHandler(this.button6_Click);
+            this.btn_Bai3_Dieulenh.Click += new System.EventHandler(this.btn_Bai3_Dieulenh_Click);
             // 
             // btn_Bai2_Dieulenh
             // 
@@ -891,7 +891,7 @@ namespace PlayerUI
             this.btn_Bai2_Dieulenh.Text = "Bài 2";
             this.btn_Bai2_Dieulenh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Bai2_Dieulenh.UseVisualStyleBackColor = false;
-            this.btn_Bai2_Dieulenh.Click += new System.EventHandler(this.button7_Click);
+            this.btn_Bai2_Dieulenh.Click += new System.EventHandler(this.btn_Bai2_Dieulenh_Click);
             // 
             // btn_Bai1_Dieulenh
             // 
@@ -911,7 +911,7 @@ namespace PlayerUI
             this.btn_Bai1_Dieulenh.Text = "Bài 1";
             this.btn_Bai1_Dieulenh.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Bai1_Dieulenh.UseVisualStyleBackColor = false;
-            this.btn_Bai1_Dieulenh.Click += new System.EventHandler(this.button8_Click);
+            this.btn_Bai1_Dieulenh.Click += new System.EventHandler(this.btn_Bai1_Dieulenh_Click);
             // 
             // btn_Dieulenh
             // 
@@ -969,7 +969,7 @@ namespace PlayerUI
             this.btn_K54.Text = "K54";
             this.btn_K54.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_K54.UseVisualStyleBackColor = false;
-            this.btn_K54.Click += new System.EventHandler(this.button11_Click);
+            this.btn_K54.Click += new System.EventHandler(this.btn_K54_Click);
             // 
             // btn_Luudan
             // 
@@ -989,7 +989,7 @@ namespace PlayerUI
             this.btn_Luudan.Text = "Lựu đạn";
             this.btn_Luudan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_Luudan.UseVisualStyleBackColor = false;
-            this.btn_Luudan.Click += new System.EventHandler(this.button5_Click);
+            this.btn_Luudan.Click += new System.EventHandler(this.btn_Luudan_Click);
             // 
             // btn_B41
             // 
@@ -1009,7 +1009,7 @@ namespace PlayerUI
             this.btn_B41.Text = "B41";
             this.btn_B41.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_B41.UseVisualStyleBackColor = false;
-            this.btn_B41.Click += new System.EventHandler(this.button4_Click);
+            this.btn_B41.Click += new System.EventHandler(this.btn_B41_Click);
             // 
             // btn_CKC
             // 
@@ -1029,7 +1029,7 @@ namespace PlayerUI
             this.btn_CKC.Text = "CKC";
             this.btn_CKC.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_CKC.UseVisualStyleBackColor = false;
-            this.btn_CKC.Click += new System.EventHandler(this.button3_Click);
+            this.btn_CKC.Click += new System.EventHandler(this.btn_CKC_Click);
             // 
             // btn_AK47
             // 
@@ -1176,14 +1176,14 @@ namespace PlayerUI
         private System.Windows.Forms.Panel panelChildForm;
         private System.Windows.Forms.Button btn_K54;
         private System.Windows.Forms.Panel panelChienthuat;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button btn_Bai3_Chienthuat;
+        private System.Windows.Forms.Button btn_Bai2_Chienthuat;
+        private System.Windows.Forms.Button btn_Bai1_Chienthuat;
         private System.Windows.Forms.Button btn_Chinhtri;
         private System.Windows.Forms.Panel PanelChinhtri;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button btn_Bai3_Chinhtri;
+        private System.Windows.Forms.Button btn_Bai2_Chinhtri;
+        private System.Windows.Forms.Button btn_Bai1_Chinhtri;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btn_Preview;
         private System.Windows.Forms.Button btn_Next;
@@ -1192,9 +1192,9 @@ namespace PlayerUI
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panelSubMenuVukhi;
         private System.Windows.Forms.Button btn_Mophong;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button btn_Chuyendong;
+        private System.Windows.Forms.Button btn_Ungdung;
+        private System.Windows.Forms.Button btn_Cautao;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;

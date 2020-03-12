@@ -42,8 +42,8 @@ namespace PlayerUI
 
                     break;
                 case 2://ckc
-                    string linkCKC = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
-                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\AK47", stt))
+                    string linkCKC = @"..\..\ImageAndVideo\Vukhi\Image\" + @"CKC\CKC_CAUTAO" + stt + ".JPG";
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\CKC", stt))
                     {
                         pic.Image = Image.FromFile(linkCKC);
                         pic.Refresh();
@@ -54,8 +54,8 @@ namespace PlayerUI
                     break;
 
                 case 3://luu dan
-                    string linkLuudan = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
-                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\AK47", stt))
+                    string linkLuudan = @"..\..\ImageAndVideo\Vukhi\Image\" + @"Luudan\Luudan_CAUTAO" + stt + ".JPG";
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\Luudan", stt))
                     {
                         pic.Image = Image.FromFile(linkLuudan);
                         pic.Refresh();
@@ -66,8 +66,8 @@ namespace PlayerUI
                     break;
 
                 case 4://b41
-                    string linkB41 = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
-                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\AK47", stt))
+                    string linkB41 = @"..\..\ImageAndVideo\Vukhi\Image\" + @"B41\B41_CAUTAO" + stt + ".JPG";
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\B41", stt))
                     {
                         pic.Image = Image.FromFile(linkB41);
                         pic.Refresh();
@@ -77,8 +77,8 @@ namespace PlayerUI
                     }
                     break;
                 case 5://k54
-                    string linkK54 = @"..\..\ImageAndVideo\Vukhi\Image\" + @"AK47\AK_CAUTAO" + stt + ".JPG";
-                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\AK47", stt))
+                    string linkK54 = @"..\..\ImageAndVideo\Vukhi\Image\" + @"K54\K54_CAUTAO" + stt + ".JPG";
+                    if (CheckCountIn(@"..\..\ImageAndVideo\Vukhi\Image\K54", stt))
                     {
                         pic.Image = Image.FromFile(linkK54);
                         pic.Refresh();

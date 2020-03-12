@@ -74,7 +74,7 @@
             this.button5.TabIndex = 14;
             this.button5.Text = "X";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.btn_Luudan_Click);
             // 
             // button6
             // 

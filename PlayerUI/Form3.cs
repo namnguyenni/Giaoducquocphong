@@ -17,7 +17,7 @@ namespace PlayerUI
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void btn_Luudan_Click(object sender, EventArgs e)
         {
             this.Close();
         }

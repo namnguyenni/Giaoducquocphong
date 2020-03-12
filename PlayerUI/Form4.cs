@@ -22,7 +22,7 @@ namespace PlayerUI
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_Bai4_Dieulenh_Click(object sender, EventArgs e)
         {
             new Form1().Show();
             this.Hide();

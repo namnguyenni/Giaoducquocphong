@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.button5 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
+            this.btn_Pause = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
+            this.btn_Continue = new System.Windows.Forms.Button();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
@@ -53,37 +53,37 @@
             this.button5.TabIndex = 7;
             this.button5.Text = "X";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.button5.Click += new System.EventHandler(this.btn_Luudan_Click);
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(46)))));
-            this.panel5.Controls.Add(this.button18);
+            this.panel5.Controls.Add(this.btn_Pause);
             this.panel5.Controls.Add(this.button17);
             this.panel5.Controls.Add(this.button20);
-            this.panel5.Controls.Add(this.button19);
+            this.panel5.Controls.Add(this.btn_Continue);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel5.Location = new System.Drawing.Point(0, 508);
+            this.panel5.Location = new System.Drawing.Point(0, 493);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(723, 48);
+            this.panel5.Size = new System.Drawing.Size(723, 63);
             this.panel5.TabIndex = 8;
             // 
-            // button18
+            // btn_Pause
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button18.BackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Image = global::PlayerUI.Properties.Resources._1_PAUSE1;
-            this.button18.Location = new System.Drawing.Point(320, 10);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(59, 35);
-            this.button18.TabIndex = 1;
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
+            this.btn_Pause.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_Pause.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Pause.FlatAppearance.BorderSize = 0;
+            this.btn_Pause.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pause.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Pause.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Pause.ForeColor = System.Drawing.Color.White;
+            this.btn_Pause.Image = global::PlayerUI.Properties.Resources._1_PAUSE1;
+            this.btn_Pause.Location = new System.Drawing.Point(320, 25);
+            this.btn_Pause.Name = "btn_Pause";
+            this.btn_Pause.Size = new System.Drawing.Size(59, 35);
+            this.btn_Pause.TabIndex = 1;
+            this.btn_Pause.UseVisualStyleBackColor = false;
+            this.btn_Pause.Click += new System.EventHandler(this.btn_Pause_Click);
             // 
             // button17
             // 
@@ -95,11 +95,12 @@
             this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.Image = global::PlayerUI.Properties.Resources._1_REWIND1;
-            this.button17.Location = new System.Drawing.Point(258, 10);
+            this.button17.Location = new System.Drawing.Point(258, 25);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(59, 35);
             this.button17.TabIndex = 0;
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // button20
             // 
@@ -111,28 +112,29 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.ForeColor = System.Drawing.Color.White;
             this.button20.Image = global::PlayerUI.Properties.Resources._1_FORWARD1;
-            this.button20.Location = new System.Drawing.Point(385, 10);
+            this.button20.Location = new System.Drawing.Point(385, 25);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(59, 35);
             this.button20.TabIndex = 3;
             this.button20.UseVisualStyleBackColor = false;
             this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
-            // button19
+            // btn_Continue
             // 
-            this.button19.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button19.BackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Image = global::PlayerUI.Properties.Resources._1_PLAYBUTTON1;
-            this.button19.Location = new System.Drawing.Point(306, 10);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(73, 35);
-            this.button19.TabIndex = 2;
-            this.button19.UseVisualStyleBackColor = false;
+            this.btn_Continue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_Continue.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Continue.FlatAppearance.BorderSize = 0;
+            this.btn_Continue.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Continue.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btn_Continue.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Continue.ForeColor = System.Drawing.Color.White;
+            this.btn_Continue.Image = global::PlayerUI.Properties.Resources._1_PLAYBUTTON1;
+            this.btn_Continue.Location = new System.Drawing.Point(306, 25);
+            this.btn_Continue.Name = "btn_Continue";
+            this.btn_Continue.Size = new System.Drawing.Size(83, 35);
+            this.btn_Continue.TabIndex = 2;
+            this.btn_Continue.UseVisualStyleBackColor = false;
+            this.btn_Continue.Click += new System.EventHandler(this.btnContinue_Click);
             // 
             // axWindowsMediaPlayer1
             // 
@@ -166,8 +168,8 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button btn_Continue;
+        private System.Windows.Forms.Button btn_Pause;
         private System.Windows.Forms.Button button17;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
     }
