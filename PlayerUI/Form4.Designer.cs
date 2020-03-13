@@ -80,18 +80,18 @@
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(202)))), ((int)(((byte)(107)))), ((int)(((byte)(218)))));
+            this.button2.BackColor = System.Drawing.Color.Transparent;
             this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Black", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Image = global::PlayerUI.Properties.Resources._1_EXITT;
+            this.button2.Image = global::PlayerUI.Properties.Resources._1_PAUSE;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 547);
+            this.button2.Location = new System.Drawing.Point(891, 547);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 37);
+            this.button2.Size = new System.Drawing.Size(36, 37);
             this.button2.TabIndex = 3;
-            this.button2.Text = "THOÁT";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);

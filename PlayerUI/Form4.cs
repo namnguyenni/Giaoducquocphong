@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace PlayerUI
 {
     public partial class Form4 : Form
     {
+        System.Media.SoundPlayer player = new System.Media.SoundPlayer();
         public Form4()
         {
             InitializeComponent();
+            player.SoundLocation = "music.wav";
+            player.Play();
+       
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -30,7 +35,7 @@ namespace PlayerUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            player.Stop();
         }
     }
 }
