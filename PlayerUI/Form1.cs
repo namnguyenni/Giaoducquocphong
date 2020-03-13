@@ -297,22 +297,93 @@ namespace PlayerUI
         {
             if (ImageShowed)
             {
-                if (HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT - 1))
-                {
-                    STT--;
-                }
+                NextSlideCautao(-1);
             }
             
+            
+        }
+
+        public void NextSlideCautao(int mode)
+        {
+            string textKey = CurrentButton.Text.ToString();
+            switch (textKey)
+            {
+                case "AK 47":
+                    if (mode == 1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT + 1))
+                    {                       
+                        ImageShowed = true;
+                        STT++;
+                    }
+                    else if (mode == -1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT - 1))
+                    {
+                        
+                        ImageShowed = true;
+                        STT--;
+                    }
+                    break;
+                case "CKC":
+                    if (mode == 1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 2, STT + 1))
+                    {
+                        ImageShowed = true;
+                        STT++;
+                    }
+                    else if (mode == -1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 2, STT - 1))
+                    {
+
+                        ImageShowed = true;
+                        STT--;
+                    }
+                    break;
+                case "Lựu đạn":
+                    if (mode == 1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 3, STT + 1))
+                    {
+                        ImageShowed = true;
+                        STT++;
+                    }
+                    else if (mode == -1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 3, STT - 1))
+                    {
+
+                        ImageShowed = true;
+                        STT--;
+                    }
+                    break;
+                case "B41":
+                    if (mode == 1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 4, STT + 1))
+                    {
+                        ImageShowed = true;
+                        STT++;
+                    }
+                    else if (mode == -1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 4, STT - 1))
+                    {
+
+                        ImageShowed = true;
+                        STT--;
+                    }
+                    break;
+                case "K54":
+                    if (mode == 1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 5, STT + 1))
+                    {
+                        ImageShowed = true;
+                        STT++;
+                    }
+                    else if (mode == -1 && HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 5, STT - 1))
+                    {
+
+                        ImageShowed = true;
+                        STT--;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
         }
 
         private void btn_Next_Click(object sender, EventArgs e)
         {
             if (ImageShowed)
             {
-                if (HandleEventInForm1.ShowLithuyetVukhi(pictureBox1, 1, STT + 1))
-                {
-                    STT++;
-                }
+                NextSlideCautao(1);
             }
             
         }

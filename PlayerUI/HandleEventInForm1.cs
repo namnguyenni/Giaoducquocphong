@@ -74,6 +74,7 @@ namespace PlayerUI
                         pic.Visible = true;
                         EnableCount = true;
 
+
                     }
                     break;
                 case 5://k54
