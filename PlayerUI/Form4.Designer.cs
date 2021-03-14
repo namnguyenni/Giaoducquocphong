@@ -164,7 +164,7 @@
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "Form4";
-            this.Text = "Form4";
+            this.Text = "Giáo dục quốc phòng";
             this.ResumeLayout(false);
             this.PerformLayout();
 

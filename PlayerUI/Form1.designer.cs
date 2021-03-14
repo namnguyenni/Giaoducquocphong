@@ -202,6 +202,7 @@ namespace PlayerUI
             this.button17.Text = "1. Lý thuyết";
             this.button17.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // panelSubMenuChienthuat
             // 
@@ -275,6 +276,7 @@ namespace PlayerUI
             this.button3.Text = "1. Lý thuyết";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panelSubMenuDieulenh
             // 

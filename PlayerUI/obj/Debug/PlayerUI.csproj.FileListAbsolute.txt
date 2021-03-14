@@ -103,3 +103,20 @@ E:\Unity\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Ca
 E:\Unity\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
 E:\Unity\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.pdb
 E:\Unity\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+E:\Github Clone\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.exe.config
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\Interop.WMPLib.dll
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\AxInterop.WMPLib.dll
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.ResolveComReference.cache
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.exe
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.pdb
+E:\Github Clone\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.exe
+E:\Github Clone\Giaoducquocphong\PlayerUI\bin\Debug\PlayerUI.pdb
+E:\Github Clone\Giaoducquocphong\PlayerUI\bin\Debug\Interop.WMPLib.dll
+E:\Github Clone\Giaoducquocphong\PlayerUI\bin\Debug\AxInterop.WMPLib.dll
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csprojResolveAssemblyReference.cache
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form1.resources
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form2.resources
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form3.resources
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Form4.resources
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.Properties.Resources.resources
+E:\Github Clone\Giaoducquocphong\PlayerUI\obj\Debug\PlayerUI.csproj.GenerateResource.Cache

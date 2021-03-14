@@ -76,6 +76,7 @@ namespace PlayerUI
         private void btnMedia_Click(object sender, EventArgs e)
         {
             showSubMenu(panelMediaSubMenu);
+            btn_trangchinh.Text = "Trang chủ > Vũ khí";
         }
 
         #region MediaSubMenu
@@ -114,6 +115,8 @@ namespace PlayerUI
         private void btnPlaylist_Click(object sender, EventArgs e)
         {
             showSubMenu(panelPlaylistSubMenu);
+            btn_trangchinh.Text = "Trang chủ > Điều lệnh";
+
         }
 
         #region PlayListManagemetSubMenu
@@ -149,6 +152,8 @@ namespace PlayerUI
         private void btnTools_Click(object sender, EventArgs e)
         {
             showSubMenu(panelChienthuat);
+            btn_trangchinh.Text = "Trang chủ > Chiến thuật";
+
         }
         #region ToolsSubMenu
         private void btn_Bai1_Chienthuat_Click(object sender, EventArgs e)
@@ -226,6 +231,8 @@ namespace PlayerUI
         private void btnEqualizer_Click_1(object sender, EventArgs e)
         {
             showSubMenu(PanelChinhtri);
+            btn_trangchinh.Text = "Trang chủ > Chính trị";
+
         }
 
         private void Placeholder(string text,TextBox tbx)
@@ -414,8 +421,14 @@ namespace PlayerUI
             ShowSubPanel(panelSubMenuChinhtri);
         }
 
-       
+        private void button3_Click(object sender, EventArgs e)
+        {
 
+        }
 
+        private void button17_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
